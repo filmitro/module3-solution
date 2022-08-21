@@ -1,0 +1,64 @@
+/*base styles*/
+* {
+  box-sizing:  border-box;
+  font-family: monospace;
+  font-size: medium;
+}
+/*header*/
+header
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+.title{
+  font-size: xx-large;
+  text-align: center;
+  margin: 0px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin: 0px;
+}
+
+
+.block {
+  border: 3px solid Black;
+  border-radius: 5px;
+  background-color: gray;
+  text-align: justify;
+  margin: 10px 2px 10px 2px;
+}
+
+p {
+    text-align: justify;
+    vertical-align: baseline;
+    margin: 0px 10px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.menu-title {
+    position: relative;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    float:  center;
+    
+    
+}
+
+/*@media (max-width: 767px) {
+    #collapsable-nav a { 
+        font-size: 1.2em;
+      }
+      #collapsable-nav a span { 
+        font-size: 1em;
+        margin-right: 5px;
+      }
+  }*/
+
+
