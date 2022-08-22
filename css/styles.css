@@ -5,11 +5,11 @@
   font-size: medium;
 }
 /*header*/
-header
+
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
   }
@@ -20,7 +20,7 @@ header
 }
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
+  
   margin: 0px;
 }
 
@@ -51,14 +51,33 @@ p {
     
 }
 
-/*@media (max-width: 767px) {
-    #collapsable-nav a { 
-        font-size: 1.2em;
-      }
-      #collapsable-nav a span { 
-        font-size: 1em;
-        margin-right: 5px;
-      }
-  }*/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .navbar-toggler, #menubut{
+    visibility: hidden;
+    }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   .navbar-toggler, #menubut{
+    visibility: hidden;
+   }
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-toggler, #menubut{
+    visibility: hidden;
+   }
+}
+/********** Extra small devices only **********/
+@media (min-width: 577px) and (max-width: 767px) {
+    .navbar-toggler, #menubut{
+    visibility: hidden;
+   }
+ }
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 576px) {
 
 
+}
